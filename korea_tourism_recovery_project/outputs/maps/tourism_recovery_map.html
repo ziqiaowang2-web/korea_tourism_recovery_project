@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c474482ff49a8dfe6b5ca330e421f4a5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c474482ff49a8dfe6b5ca330e421f4a5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c474482ff49a8dfe6b5ca330e421f4a5 = L.map(
+                "map_c474482ff49a8dfe6b5ca330e421f4a5",
+                {
+                    center: [36.4, 127.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68f26d4b0674163f7d588de7914ded9d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68f26d4b0674163f7d588de7914ded9d.addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+            var circle_marker_a8838f74739a658f4e6cc719f4137fad = L.circleMarker(
+                [37.8228, 128.1555],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.199535857243411, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_d6efb69a7688561afb08614f669e4b61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28f5082d078c8818743cb02f6a3c9a81 = $(`<div id="html_28f5082d078c8818743cb02f6a3c9a81" style="width: 100.0%; height: 100.0%;"><b>강원특별자치도</b><br>Year: 2025<br>Recovery/Activity Index: 0.178<br>Visitors: 151,235,214<br>Spending: 4,954,400,837<br>Search Count: 35,310,587<br>Cluster: 0</div>`)[0];
+                popup_d6efb69a7688561afb08614f669e4b61.setContent(html_28f5082d078c8818743cb02f6a3c9a81);
+            
+        
+
+        circle_marker_a8838f74739a658f4e6cc719f4137fad.bindPopup(popup_d6efb69a7688561afb08614f669e4b61)
+        ;
+
+        
+    
+    
+            var circle_marker_3ea77f13db1879dea1602d8fdc132988 = L.circleMarker(
+                [37.4138, 127.5183],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.982799639855852, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_eb9f8c88981dcc3975ec4b57ebd04f49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49d64d5b690693179b5611e343fc03bc = $(`<div id="html_49d64d5b690693179b5611e343fc03bc" style="width: 100.0%; height: 100.0%;"><b>경기도</b><br>Year: 2025<br>Recovery/Activity Index: 0.832<br>Visitors: 660,044,175<br>Spending: 37,294,288,701<br>Search Count: 149,636,932<br>Cluster: 1</div>`)[0];
+                popup_eb9f8c88981dcc3975ec4b57ebd04f49.setContent(html_49d64d5b690693179b5611e343fc03bc);
+            
+        
+
+        circle_marker_3ea77f13db1879dea1602d8fdc132988.bindPopup(popup_eb9f8c88981dcc3975ec4b57ebd04f49)
+        ;
+
+        
+    
+    
+            var circle_marker_9baed3b7ecbc3cc11213d12e718e6f23 = L.circleMarker(
+                [35.4606, 128.2132],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.228586826308451, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_c0cd75e19cebfaf67f6de30bbc78e8d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_001bc3a6bc96cd6fcfd7dc9e3d5ff3f9 = $(`<div id="html_001bc3a6bc96cd6fcfd7dc9e3d5ff3f9" style="width: 100.0%; height: 100.0%;"><b>경상남도</b><br>Year: 2025<br>Recovery/Activity Index: 0.179<br>Visitors: 166,687,846<br>Spending: 5,648,752,031<br>Search Count: 24,774,686<br>Cluster: 0</div>`)[0];
+                popup_c0cd75e19cebfaf67f6de30bbc78e8d4.setContent(html_001bc3a6bc96cd6fcfd7dc9e3d5ff3f9);
+            
+        
+
+        circle_marker_9baed3b7ecbc3cc11213d12e718e6f23.bindPopup(popup_c0cd75e19cebfaf67f6de30bbc78e8d4)
+        ;
+
+        
+    
+    
+            var circle_marker_9207aa9139876171f87b679fed48378a = L.circleMarker(
+                [36.4919, 128.8889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.659047285109787, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_acbd256596e1cc2db5cedced0fa6833d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b21db7e77c48ca5a8eadca2c1f6ca2fe = $(`<div id="html_b21db7e77c48ca5a8eadca2c1f6ca2fe" style="width: 100.0%; height: 100.0%;"><b>경상북도</b><br>Year: 2025<br>Recovery/Activity Index: 0.203<br>Visitors: 187,787,058<br>Spending: 5,454,552,247<br>Search Count: 22,898,763<br>Cluster: 0</div>`)[0];
+                popup_acbd256596e1cc2db5cedced0fa6833d.setContent(html_b21db7e77c48ca5a8eadca2c1f6ca2fe);
+            
+        
+
+        circle_marker_9207aa9139876171f87b679fed48378a.bindPopup(popup_acbd256596e1cc2db5cedced0fa6833d)
+        ;
+
+        
+    
+    
+            var circle_marker_4026d55f8435802ee33b61cc927ccdad = L.circleMarker(
+                [35.1595, 126.8526],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.496227734352036, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_1c3fc1148d93a472f6ec262723c0fb61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc30b0d3595e55518fa53f7bb1395704 = $(`<div id="html_bc30b0d3595e55518fa53f7bb1395704" style="width: 100.0%; height: 100.0%;"><b>광주광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.139<br>Visitors: 70,979,688<br>Spending: 3,123,045,762<br>Search Count: 7,685,533<br>Cluster: 0</div>`)[0];
+                popup_1c3fc1148d93a472f6ec262723c0fb61.setContent(html_bc30b0d3595e55518fa53f7bb1395704);
+            
+        
+
+        circle_marker_4026d55f8435802ee33b61cc927ccdad.bindPopup(popup_1c3fc1148d93a472f6ec262723c0fb61)
+        ;
+
+        
+    
+    
+            var circle_marker_04d244f0d82805c3d500d5872728f643 = L.circleMarker(
+                [35.8714, 128.6014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.539293343456904, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_45c82cf04817c8874139565b39610fc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a06d7df51f3fa5d871feff90e9ab83c = $(`<div id="html_6a06d7df51f3fa5d871feff90e9ab83c" style="width: 100.0%; height: 100.0%;"><b>대구광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.141<br>Visitors: 112,428,992<br>Spending: 5,923,932,214<br>Search Count: 14,742,815<br>Cluster: 0</div>`)[0];
+                popup_45c82cf04817c8874139565b39610fc3.setContent(html_6a06d7df51f3fa5d871feff90e9ab83c);
+            
+        
+
+        circle_marker_04d244f0d82805c3d500d5872728f643.bindPopup(popup_45c82cf04817c8874139565b39610fc3)
+        ;
+
+        
+    
+    
+            var circle_marker_e3211d3b6de8536aee4c0acc20783bc8 = L.circleMarker(
+                [36.3504, 127.3845],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.175187107854516, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_f570103d9b76f3151fa72388fe0892db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e074d968002da5f1bc3ec97b3348d8d = $(`<div id="html_7e074d968002da5f1bc3ec97b3348d8d" style="width: 100.0%; height: 100.0%;"><b>대전광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.121<br>Visitors: 90,947,902<br>Spending: 4,758,753,663<br>Search Count: 11,691,653<br>Cluster: 0</div>`)[0];
+                popup_f570103d9b76f3151fa72388fe0892db.setContent(html_7e074d968002da5f1bc3ec97b3348d8d);
+            
+        
+
+        circle_marker_e3211d3b6de8536aee4c0acc20783bc8.bindPopup(popup_f570103d9b76f3151fa72388fe0892db)
+        ;
+
+        
+    
+    
+            var circle_marker_cb86b30e850ac4acbf02e66207ec978f = L.circleMarker(
+                [35.1796, 129.0756],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.677004479063635, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_f617845f6cdace58d15863302c49a845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b0d285644ff8562cabb65dbd66169c8 = $(`<div id="html_4b0d285644ff8562cabb65dbd66169c8" style="width: 100.0%; height: 100.0%;"><b>부산광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.204<br>Visitors: 161,883,449<br>Spending: 9,434,538,492<br>Search Count: 26,624,086<br>Cluster: 0</div>`)[0];
+                popup_f617845f6cdace58d15863302c49a845.setContent(html_4b0d285644ff8562cabb65dbd66169c8);
+            
+        
+
+        circle_marker_cb86b30e850ac4acbf02e66207ec978f.bindPopup(popup_f617845f6cdace58d15863302c49a845)
+        ;
+
+        
+    
+    
+            var circle_marker_30c5189f8eb3de7760902943ed5d4902 = L.circleMarker(
+                [37.5665, 126.978],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.449907404881863, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_89f77898dff799ff35df7ca6791efe36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebb4b149839ec082f842c39c8d8433ae = $(`<div id="html_ebb4b149839ec082f842c39c8d8433ae" style="width: 100.0%; height: 100.0%;"><b>서울특별시</b><br>Year: 2025<br>Recovery/Activity Index: 0.747<br>Visitors: 633,285,856<br>Spending: 44,544,491,947<br>Search Count: 71,746,760<br>Cluster: 1</div>`)[0];
+                popup_89f77898dff799ff35df7ca6791efe36.setContent(html_ebb4b149839ec082f842c39c8d8433ae);
+            
+        
+
+        circle_marker_30c5189f8eb3de7760902943ed5d4902.bindPopup(popup_89f77898dff799ff35df7ca6791efe36)
+        ;
+
+        
+    
+    
+            var circle_marker_8c09dbbe2410572e1d9abcc8d416dfbe = L.circleMarker(
+                [36.48, 127.289],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.317112922002327, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_f0dd847681580374c9c83abdc2a7d6f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce1890793e0c29aa39684908a3c15092 = $(`<div id="html_ce1890793e0c29aa39684908a3c15092" style="width: 100.0%; height: 100.0%;"><b>세종특별자치시</b><br>Year: 2025<br>Recovery/Activity Index: 0.184<br>Visitors: 30,128,382<br>Spending: 469,889,587<br>Search Count: 3,210,747<br>Cluster: 0</div>`)[0];
+                popup_f0dd847681580374c9c83abdc2a7d6f7.setContent(html_ce1890793e0c29aa39684908a3c15092);
+            
+        
+
+        circle_marker_8c09dbbe2410572e1d9abcc8d416dfbe.bindPopup(popup_f0dd847681580374c9c83abdc2a7d6f7)
+        ;
+
+        
+    
+    
+            var circle_marker_077153df24953dca41b471ef5e55ce8a = L.circleMarker(
+                [35.5384, 129.3114],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.248876945224136, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_fcd1077a37e248d0c7d32b06978dc1d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_044f22472c4d4d99d074cef00cbc4ea4 = $(`<div id="html_044f22472c4d4d99d074cef00cbc4ea4" style="width: 100.0%; height: 100.0%;"><b>울산광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.125<br>Visitors: 52,682,231<br>Spending: 2,360,075,545<br>Search Count: 7,272,029<br>Cluster: 0</div>`)[0];
+                popup_fcd1077a37e248d0c7d32b06978dc1d6.setContent(html_044f22472c4d4d99d074cef00cbc4ea4);
+            
+        
+
+        circle_marker_077153df24953dca41b471ef5e55ce8a.bindPopup(popup_fcd1077a37e248d0c7d32b06978dc1d6)
+        ;
+
+        
+    
+    
+            var circle_marker_6445aceb3f15431ac45ef857dd7201ce = L.circleMarker(
+                [37.4563, 126.7052],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.132069125704778, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_1e5a1cdf1349867c1a32364521019211 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40dcbc91ea6517f4e3839b962934f6ab = $(`<div id="html_40dcbc91ea6517f4e3839b962934f6ab" style="width: 100.0%; height: 100.0%;"><b>인천광역시</b><br>Year: 2025<br>Recovery/Activity Index: 0.230<br>Visitors: 185,482,860<br>Spending: 8,452,313,172<br>Search Count: 35,885,184<br>Cluster: 0</div>`)[0];
+                popup_1e5a1cdf1349867c1a32364521019211.setContent(html_40dcbc91ea6517f4e3839b962934f6ab);
+            
+        
+
+        circle_marker_6445aceb3f15431ac45ef857dd7201ce.bindPopup(popup_1e5a1cdf1349867c1a32364521019211)
+        ;
+
+        
+    
+    
+            var circle_marker_6a683c33a24a283019e794bbe4793cea = L.circleMarker(
+                [34.8679, 126.991],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.682246114330008, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_1a256c1999712b63eaf99f8591e06002 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dea863f0eecde1aadfe6a090043390e7 = $(`<div id="html_dea863f0eecde1aadfe6a090043390e7" style="width: 100.0%; height: 100.0%;"><b>전라남도</b><br>Year: 2025<br>Recovery/Activity Index: 0.149<br>Visitors: 132,694,562<br>Spending: 3,597,760,801<br>Search Count: 16,412,478<br>Cluster: 0</div>`)[0];
+                popup_1a256c1999712b63eaf99f8591e06002.setContent(html_dea863f0eecde1aadfe6a090043390e7);
+            
+        
+
+        circle_marker_6a683c33a24a283019e794bbe4793cea.bindPopup(popup_1a256c1999712b63eaf99f8591e06002)
+        ;
+
+        
+    
+    
+            var circle_marker_aba0a6498785ae6c11ee79e1099c4a78 = L.circleMarker(
+                [35.7175, 127.153],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.854406342442882, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_79f267f9dbbf0f5faa31ef66c8583925 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4741aaa716e2a81a792175d7f8e73d3f = $(`<div id="html_4741aaa716e2a81a792175d7f8e73d3f" style="width: 100.0%; height: 100.0%;"><b>전북특별자치도</b><br>Year: 2025<br>Recovery/Activity Index: 0.103<br>Visitors: 102,129,580<br>Spending: 3,418,009,033<br>Search Count: 14,106,606<br>Cluster: 0</div>`)[0];
+                popup_79f267f9dbbf0f5faa31ef66c8583925.setContent(html_4741aaa716e2a81a792175d7f8e73d3f);
+            
+        
+
+        circle_marker_aba0a6498785ae6c11ee79e1099c4a78.bindPopup(popup_79f267f9dbbf0f5faa31ef66c8583925)
+        ;
+
+        
+    
+    
+            var circle_marker_2bcfa689b54f8b6af6f973f117a6b2cb = L.circleMarker(
+                [33.4996, 126.5312],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.319316387211579, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_f83224c8413b2824a66274a268e7f281 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_270dab06d8bf143e342b47ee00e434bd = $(`<div id="html_270dab06d8bf143e342b47ee00e434bd" style="width: 100.0%; height: 100.0%;"><b>제주특별자치도</b><br>Year: 2025<br>Recovery/Activity Index: 0.240<br>Visitors: 59,269,886<br>Spending: 2,656,137,907<br>Search Count: 13,227,183<br>Cluster: 0</div>`)[0];
+                popup_f83224c8413b2824a66274a268e7f281.setContent(html_270dab06d8bf143e342b47ee00e434bd);
+            
+        
+
+        circle_marker_2bcfa689b54f8b6af6f973f117a6b2cb.bindPopup(popup_f83224c8413b2824a66274a268e7f281)
+        ;
+
+        
+    
+    
+            var circle_marker_dce3b5db8370ebbc5a129ab6c21ba371 = L.circleMarker(
+                [36.5184, 126.8],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.55994423837861, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_2cd1c2349113f92547143b9dc7f80d4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b812876deebf17d2b6aee6e4f53f5808 = $(`<div id="html_b812876deebf17d2b6aee6e4f53f5808" style="width: 100.0%; height: 100.0%;"><b>충청남도</b><br>Year: 2025<br>Recovery/Activity Index: 0.198<br>Visitors: 175,403,844<br>Spending: 5,486,583,699<br>Search Count: 25,244,070<br>Cluster: 0</div>`)[0];
+                popup_2cd1c2349113f92547143b9dc7f80d4e.setContent(html_b812876deebf17d2b6aee6e4f53f5808);
+            
+        
+
+        circle_marker_dce3b5db8370ebbc5a129ab6c21ba371.bindPopup(popup_2cd1c2349113f92547143b9dc7f80d4e)
+        ;
+
+        
+    
+    
+            var circle_marker_1b24e12c65c890be49bd9ad041c02cd0 = L.circleMarker(
+                [36.6357, 127.4917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.536042343491516, "stroke": true, "weight": 3}
+            ).addTo(map_c474482ff49a8dfe6b5ca330e421f4a5);
+        
+    
+        var popup_00acc8968b5ac7567f706aa38a178db7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68cef22b85ac0374208109246108bbac = $(`<div id="html_68cef22b85ac0374208109246108bbac" style="width: 100.0%; height: 100.0%;"><b>충청북도</b><br>Year: 2025<br>Recovery/Activity Index: 0.141<br>Visitors: 122,791,739<br>Spending: 5,507,617,733<br>Search Count: 16,634,428<br>Cluster: 0</div>`)[0];
+                popup_00acc8968b5ac7567f706aa38a178db7.setContent(html_68cef22b85ac0374208109246108bbac);
+            
+        
+
+        circle_marker_1b24e12c65c890be49bd9ad041c02cd0.bindPopup(popup_00acc8968b5ac7567f706aa38a178db7)
+        ;
+
+        
+    
+</script>
+</html>
