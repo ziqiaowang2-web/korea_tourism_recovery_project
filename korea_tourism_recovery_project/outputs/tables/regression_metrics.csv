@@ -1,0 +1,2 @@
+﻿target,model,MAE,RMSE,R2,n_samples,n_features
+tourism_spending,RandomForestRegressor,538749143.1842309,939407692.786466,0.9908136961948473,102,10
