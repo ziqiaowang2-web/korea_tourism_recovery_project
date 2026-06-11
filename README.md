@@ -305,7 +305,7 @@ Random Forest 回归分析结果显示，影响旅游支出的主要变量如下
 ### 참고 문헌 / 参考文献
 
 1. 전광상(2026), *내국인 관광 수요 분포의 복잡계적 구조 분석: 코로나19 이전･확산기･회복기 비교*
-   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003315569
+   https://doi.org/10.22776/kgs.2026.61.1.99
 
 2. Yoo, Lee & Hong(2025), *Proximity, Resilience, and Blue Urbanism: Spatial Dynamics of Post-Pandemic Recovery in South Korea’s Coastal Fishing Communities*
    https://www.mdpi.com/2073-445X/14/6/1303
